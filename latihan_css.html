@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Latihan CSS</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+    }
+
+    /* Wadah utama dengan garis di atas */
+    #wadah {
+      width: 700px;
+      margin: 20px auto;
+      border-top: 2px solid #333;
+      padding-top: 10px;
+    }
+
+    /* Judul */
+    h2 {
+      color: orangered;
+      font-size: 16px;
+      margin: 0 0 8px 0;
+    }
+
+    /* Daftar */
+    ul, ol {
+      font-size: 10px;
+      margin: 4px 0 10px 0;
+    }
+    li { line-height: 1.1; }
+
+    /* Link */
+    a { color: #0000ee; }
+    a:visited { color: purple; }
+
+    .klik {
+      font-size: 10px;
+    }
+
+    /* Judul kota */
+    h3 {
+      color: orangered;
+      font-size: 11px;
+      font-style: italic;
+      margin: 12px 0 6px 0;
+    }
+
+    /* Paragraf p1 : warna hijau */
+    #p1 {
+      color: green;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9px;
+      text-align: justify;
+    }
+
+    /* Paragraf p2 : warna merah */
+    .merah {
+      color: red;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9px;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div id="wadah">
+    <h2>Hallo. Ini ada beberapa link</h2>
+
+    <ul>
+      <li><a href="#">Link1</a></li>
+      <li><a href="#">Link2</a></li>
+      <li><a href="#">Link3</a></li>
+      <li><a href="#">Link4</a></li>
+      <li><a href="#">Link5</a></li>
+    </ul>
+
+    <ol>
+      <li><a href="#">Link6</a></li>
+      <li><a href="#">Link7</a></li>
+      <li><a href="#">Link8</a></li>
+      <li><a href="#">Link9</a></li>
+      <li><a href="#">Link10</a></li>
+    </ol>
+
+    <a class="klik" href="#">Klik Disini</a>
+
+    <h3>Kota Bandung</h3>
+
+    <p id="p1">
+      Kota kembang merupakan sebutan lain untuk kota ini, karena pada zaman dulu kota ini dinilai sangat cantik
+      dengan banyaknya pohon-pohon dan bunga-bunga yang tumbuh di sana. Selain itu Bandung dahulunya disebut juga
+      dengan Paris van Java karena keindahannya. Selain itu kota Bandung juga dikenal sebagai kota belanja, dengan
+      mall dan factory outlet yang banyak tersebar di kota ini, dan saat ini berangsur-angsur kota Bandung juga
+      menjadi kota wisata kuliner. Dan pada tahun 2007, konsorsium beberapa Lembaga internasional menjadikan kota
+      Bandung sebagai pilot project kota terkreatif se-Asia Timur. Saat ini kota Bandung merupakan salah satu kota
+      tujuan utama pariwisata dan pendidikan.
+    </p>
+
+    <p class="merah">
+      Bandung akan menjadi salah satu kota tuan rumah pendukung Asian Games 2018. Infrastruktur yang sedang
+      dibangun termasuk Metro Kapsul, sejenis sistem APM atau People mover yang dikembangkan sendiri.
+    </p>
+  </div>
+</body>
+</html>
